@@ -1,0 +1,17 @@
+import Foundation
+import Glibc
+ 
+var age = 188
+
+switch age {
+    case 0...1:
+        print("bebek")
+    case 1..<18:
+        print("çocuk")
+    case 18...64:
+        print("erişkin")
+    case 65...99:
+        print("çok yaşlı")
+    default:
+        print("öl artık!")
+}
